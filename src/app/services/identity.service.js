@@ -1,9 +1,6 @@
-const appId = '/* @echo LAYER_APP_ID */';
-const identityProviderUrl = '/* @echo IDENTITY_PROVIDER_URL */';
-
 angular.module('am-communications').factory('identityService', function() {
   const identityData = {
-    appId,
+    layerAppId,
     identityProviderUrl: `${identityProviderUrl}/authenticate`,
     validateSetup(client) {
       const conversationQuery = client.createQuery({

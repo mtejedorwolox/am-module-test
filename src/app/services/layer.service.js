@@ -1,5 +1,3 @@
-const layerAppId = '/* @echo LAYER_APP_ID */';
-
 angular.module('am-communications').factory('layerService', ['identityService', function(identityService) {
   const client = new window.layer.Client({
     appId: layerAppId
