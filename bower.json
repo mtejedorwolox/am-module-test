@@ -1,0 +1,22 @@
+{
+  "name": "am-communications",
+  "description": "Messaging module for AlMundo",
+  "main": [
+    "dist/am-communications.js"
+  ],
+  "authors": [
+    "Sebastian Balay <sebastian.balay@wolox.com.ar>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "docs"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "am-login-utils": "https://git.almundo.com/angular-modules/am-login-utils.git#^0.2.2"
+  }
+}
