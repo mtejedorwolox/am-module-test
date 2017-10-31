@@ -1,0 +1,12 @@
+{
+  "registry": {
+    "search": [
+      "http://admin:admin-almundo@nexus01pr.aws.almundo.it:8081/repository/bower-all/"
+    ],
+    "register": "http://admin:admin-almundo@nexus01pr.aws.almundo.it:8081/repository/bower-hosted"
+  },
+  "resolvers": [
+    "bower-nexus3-resolver"
+  ]
+}
+
